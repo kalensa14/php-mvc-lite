@@ -1,0 +1,24 @@
+{
+    "name": "kalensa14/php-mvc-lite",
+    "description": "Simple php MVC framework.",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        },
+        "files": [
+            "app/helpers.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Alexander Kalensky"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "symfony/http-foundation": "^6.1",
+        "symfony/routing": "^6.1",
+        "nesbot/carbon": "^2.62",
+        "ext-pdo": "*"
+    }
+}
